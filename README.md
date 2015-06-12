@@ -1,8 +1,16 @@
 # PythonBasics
 Python cheatsheet and simple python examples
 
+* [Comments](#comments)
+* [Data Types](#data_type)
+    * [Strings](#data_type__strings)
+* [Input / Output](#io)
+* [Variables](#variables)
+* [if Statemens](#if_statements)
+* [for Loops](#for_loops)
+* [Functions](#functions)
 
-### Comments
+### Comments <a name="comments"/>
 
 Everything in your python program that is not marked as a comment using `#` will be read by Python as python code.
 In this cheatsheet you will find a lot of short code snippets and sometime we will use comments to explain them
@@ -15,10 +23,10 @@ So here `print 3+4` is interpreted as python code and `# prints 12` is a comment
 
 ------------------------------------------------------------
 
-### Data Types
+### Data Types <a name="data_types"/>
 Python support different data types and is able to convert back an forth between them.
 
-##### Strings
+##### Strings <a name="data_types__strings"/>
 Strings are used to represent text. 
 
 ```python
@@ -42,14 +50,14 @@ This maybe be needed when concatenating a string with the result of a numberical
                     #           then converts it into a string for concatenation )
 ```
 
-##### Numbers
+##### Numbers <a name="data_types__numbers"/>
 
 
-##### Booleans
+##### Booleans <a name="data_types__booleans"/>
 
 ------------------------------------------------------------
 
-### Input and Output
+### Input and Output <a name="io"/>
 
 ##### Input
 We can use the `print` function to print output 
@@ -75,8 +83,7 @@ We can use the function `raw_input` to read input from the user.
 ------------------------------------------------------------
 
 
-
-### Variables
+### Variables <a name="variables"/>
 
 We use variable to store data that we want to access at a later point. 
 In python we can just use a new name that we have not used before and assign a value to it and it becomes a variable.
@@ -85,6 +92,18 @@ In python we can just use a new name that we have not used before and assign a v
 age = 12
 name = "Bob'
 ```
+
+------------------------------------------------------------
+
+### if Statments <a name="if_statments"/>
+
+------------------------------------------------------------
+
+### for Loops <a name="for_loops"/>
+
+------------------------------------------------------------
+
+### Functions <a name="functions"/>
 
 ------------------------------------------------------------
 
