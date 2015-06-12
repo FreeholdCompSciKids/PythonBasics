@@ -5,6 +5,7 @@ Python cheatsheet and simple python examples
 * [Data Types](#data_type)
     * [Strings](#data_type__strings)
 * [Input / Output](#io)
+    * [Input](#input)
 * [Variables](#variables)
 * [if Statemens](#if_statements)
 * [for Loops](#for_loops)
