@@ -1,6 +1,7 @@
 # PythonBasics
 Python cheatsheet and simple python examples
 
+------------------------------------------------------------
 
 ### Data Types
 Python support different data types and is able to convert back an forth between them.
@@ -32,6 +33,7 @@ This maybe be needed when concatenating a string with the result of a numberical
 
 ##### Booleans
 
+------------------------------------------------------------
 
 ### Input and Output
 
@@ -50,15 +52,13 @@ We can use the function `raw_input` to read input from the user.
     name = raw_input("What is your name? ")
 ```
 
-**Important:** `raw_input()` reads the user input as a string. If you need it as a number, you have to convert it
+:warning: **Important:** `raw_input()` reads the user input as a string. If you need it as a number, you have to convert it
 ```python 
     age = int(raw_input("What is your name? "))
     age = float(raw_input("What is the price of gasonline? "))
 ```
 
-
-
-
+------------------------------------------------------------
 
 
 
@@ -71,4 +71,5 @@ age = 12
 name = "Bob'
 ```
 
+------------------------------------------------------------
 
