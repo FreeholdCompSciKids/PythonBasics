@@ -1,6 +1,18 @@
 # PythonBasics
 Python cheatsheet and simple python examples
 
+
+### Comments
+
+Everything in your python program that is not marked as a comment using `#` will be read by Python as python code.
+In this cheatsheet you will find a lot of short code snippets and sometime we will use comments to explain them
+
+```python
+print 3+4             # prints 12
+```
+
+So here `print 3+4` is interpreted as python code and `# prints 12` is a comment that is meant as an explanation for the programmer.
+
 ------------------------------------------------------------
 
 ### Data Types
@@ -19,13 +31,15 @@ Strings can be concatenated (= writing one afte the other) using the `+` operato
 ```python
 "I love " + "chocolate"    # = "I love chocoloate"
 "i" + "c" + "e" + "cream"  # = "icecream"  
-"100"+"23"                 # = "10023" (because "100" and "23" are strings, not numbers so we are concatenating, not adding
+"100"+"23"                 # = "10023" (because "100" and "23" are strings, 
+                           #            not numbers so we are concatenating, not adding)
 ```
 It is possible to convert data that is not a string into a string using the `str()` function. 
 This maybe be needed when concatenating a string with the result of a numberical computation.
 
 ```python
-"xyz" + str(3*4)    # = xyz12  (it first computes 3*4, which is 12 as number, then converts it into a string for concatenation
+"xyz" + str(3*4)    # = xyz12  (it first computes 3*4, which is 12 as number, 
+                    #           then converts it into a string for concatenation )
 ```
 
 ##### Numbers
@@ -64,7 +78,8 @@ We can use the function `raw_input` to read input from the user.
 
 ### Variables
 
-We use variable to store data that we want to access at a later point. In python we can just use a new name that we have not used before and assign a value to it and it becomes a variable.
+We use variable to store data that we want to access at a later point. 
+In python we can just use a new name that we have not used before and assign a value to it and it becomes a variable.
 
 ```python
 age = 12

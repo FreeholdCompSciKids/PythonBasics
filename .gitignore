@@ -55,3 +55,8 @@ docs/_build/
 
 # PyBuilder
 target/
+
+
+#user defined
+publish.sh 
+*.sw?   #vi swap files
