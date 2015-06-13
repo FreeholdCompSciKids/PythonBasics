@@ -14,7 +14,7 @@ Python cheatsheet and simple python examples.
 * [for Loops](#for_loops)
 * [Functions](#functions)
 
-Array<a name="comments"/>
+<a name="comments"/>
 
 ### Comments <a name="comments"/>
 
