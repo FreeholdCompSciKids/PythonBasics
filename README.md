@@ -1,30 +1,37 @@
-# PythonBasics
-Python cheatsheet and simple python examples
 
-* [Comments](#comments)
-* [Data Types](#data_type)
-    * [Strings](#data_type__strings)
-* [Input / Output](#io)
-    * [Input](#input)
-* [Variables](#variables)
-* [if Statemens](#if_statements)
-* [for Loops](#for_loops)
-* [Functions](#functions)
 
+
+
+# Python Basics
+
+Python cheatsheet and simple python examples.
+
+* [Comments](comments)
+* [Data Types](data_types)
+* [Input / Output](io)
+* [Variables](variables)
+* [if Statements](if_statements)
+* [for Loops](for_loops)
+* [Functions](functions)
+
+Array<a name="comments"/>
 ### Comments <a name="comments"/>
 
-Everything in your python program that is not marked as a comment using `#` will be read by Python as python code.
-In this cheatsheet you will find a lot of short code snippets and sometime we will use comments to explain them
+Everything in your python program that is not marked as a comment using `#` 
+will be read by Python as python code.
+In this cheatsheet you will find a lot of short 
+code snippets and sometime we will use comments to explain them
 
 ```python
 print 3+4             # prints 12
 ```
 
-So here `print 3+4` is interpreted as python code and `# prints 12` is a comment that is meant as an explanation for the programmer.
+So here `print 3+4` is interpreted as python code and `# prints 12` 
+is a comment that is meant as an explanation for the programmer.
 
-------------------------------------------------------------
 
-### Data Types <a name="data_types"/>
+ -------------------------------- 
+ <a name="data_types"/>### Data Types
 Python support different data types and is able to convert back an forth between them.
 
 ##### Strings <a name="data_types__strings"/>
@@ -56,9 +63,9 @@ This maybe be needed when concatenating a string with the result of a numberical
 
 ##### Booleans <a name="data_types__booleans"/>
 
-------------------------------------------------------------
 
-### Input and Output <a name="io"/>
+ -------------------------------- 
+ <a name="io"/>### Input and Output
 
 ##### Input
 We can use the `print` function to print output 
@@ -75,16 +82,16 @@ We can use the function `raw_input` to read input from the user.
     name = raw_input("What is your name? ")
 ```
 
-:warning: **Important:** `raw_input()` reads the user input as a string. If you need it as a number, you have to convert it
+:warning: **Important:** `raw_input()` reads the user input as a string. 
+If you need it as a number, you have to convert it
 ```python 
     age = int(raw_input("What is your name? "))
     age = float(raw_input("What is the price of gasonline? "))
 ```
 
-------------------------------------------------------------
 
-
-### Variables <a name="variables"/>
+ -------------------------------- 
+ <a name="variables"/>### Variables 
 
 We use variable to store data that we want to access at a later point. 
 In python we can just use a new name that we have not used before and assign a value to it and it becomes a variable.
@@ -108,3 +115,21 @@ name = "Bob'
 
 ------------------------------------------------------------
 
+
+ -------------------------------- 
+ <a name="if_statements"/>###if Statements
+
+t.b.d.
+
+ -------------------------------- 
+ <a name="for_loops"/>### for Loops
+
+t.b.d.
+
+ -------------------------------- 
+ <a name="functions"/>###Functions
+
+t.b.d.
+
+ -------------------------------- 
+ 

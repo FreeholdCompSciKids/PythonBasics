@@ -59,4 +59,4 @@ target/
 
 #user defined
 publish.sh 
-*.sw?   #vi swap files
+.*.sw?   #vi swap files
