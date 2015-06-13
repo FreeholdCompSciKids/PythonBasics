@@ -3,11 +3,11 @@ PHP="php"
 
 
 DOC_FILES=\
-../comments.md \
-../data_types.md \
-../intro.md \
-../io.md \
-../variables.md \
+comments.md \
+data_types.md \
+intro.md \
+io.md \
+variables.md \
 
 ROOT_DOC= root.md.php
 

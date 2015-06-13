@@ -2,13 +2,13 @@
 <?php
 
 $modules = array(
-              array("Comments", "comments", "../comments.md"),
-              array("Data Types", "data_types", "../data_types.md"),
-              array("Input / Output", "io", "../io.md"),
-              array("Variables", "variables", "../variables.md"),
-              array("if Statements", "if_statements", "../if_statements.md"),
-              array("for Loops", "for_loops", "../for_loops.md"),
-              array("Functions", "functions", "../functions.md"),
+              array("Comments", "comments", "comments.md"),
+              array("Data Types", "data_types", "data_types.md"),
+              array("Input / Output", "io", "io.md"),
+              array("Variables", "variables", "variables.md"),
+              array("if Statements", "if_statements", "if_statements.md"),
+              array("for Loops", "for_loops", "for_loops.md"),
+              array("Functions", "functions", "functions.md"),
                 );
 
 $foo = array( 1, 2, 3);
@@ -39,7 +39,7 @@ function load_modules()
 
 
 
-<?php require("../intro.md") ?>
+<?php require("intro.md") ?>
 
 <?php create_toc(); ?>
 
