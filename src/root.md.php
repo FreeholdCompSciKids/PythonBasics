@@ -11,8 +11,6 @@ $modules = array(
               array("Functions", "functions", "functions.md"),
                 );
 
-$foo = array( 1, 2, 3);
-
 function create_toc()
 {
     global $modules;
@@ -43,5 +41,5 @@ function load_modules()
 
 <?php create_toc(); ?>
 
-<?php echo $foo; load_modules(); ?>
+<?php load_modules(); ?>
 
