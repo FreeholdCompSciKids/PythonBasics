@@ -6,13 +6,13 @@
 
 Python cheatsheet and simple python examples.
 
-* [Comments](comments)
-* [Data Types](data_types)
-* [Input / Output](io)
-* [Variables](variables)
-* [if Statements](if_statements)
-* [for Loops](for_loops)
-* [Functions](functions)
+* [Comments](#comments)
+* [Data Types](#data_types)
+* [Input / Output](#io)
+* [Variables](#variables)
+* [if Statements](#if_statements)
+* [for Loops](#for_loops)
+* [Functions](#functions)
 
 Array<a name="comments"/>
 ### Comments <a name="comments"/>

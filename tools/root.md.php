@@ -19,7 +19,7 @@ function create_toc()
     for ($i =0; $i < count($modules); $i++)
     {
         list($descr, $anchor, $filename) = $modules[$i];
-        echo "* [$descr]($anchor)\n";
+        echo "* [$descr](#$anchor)\n";
     }
 }
 
