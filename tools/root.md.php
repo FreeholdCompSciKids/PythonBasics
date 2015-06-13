@@ -29,7 +29,7 @@ function load_modules()
     for ($i =0; $i < count($modules); $i++)
     {
         list($descr, $anchor, $filename) = $modules[$i];
-        echo "<a name=\"$anchor\"/>";
+        echo "<a name=\"$anchor\"/>\n";
         require($filename);
         echo "\n -------------------------------- \n ";
     }

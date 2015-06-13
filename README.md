@@ -15,6 +15,7 @@ Python cheatsheet and simple python examples.
 * [Functions](#functions)
 
 Array<a name="comments"/>
+
 ### Comments <a name="comments"/>
 
 Everything in your python program that is not marked as a comment using `#` 
@@ -31,7 +32,8 @@ is a comment that is meant as an explanation for the programmer.
 
 
  -------------------------------- 
- <a name="data_types"/>### Data Types
+ <a name="data_types"/>
+### Data Types
 Python support different data types and is able to convert back an forth between them.
 
 ##### Strings <a name="data_types__strings"/>
@@ -65,7 +67,8 @@ This maybe be needed when concatenating a string with the result of a numberical
 
 
  -------------------------------- 
- <a name="io"/>### Input and Output
+ <a name="io"/>
+### Input and Output
 
 ##### Input
 We can use the `print` function to print output 
@@ -91,43 +94,32 @@ If you need it as a number, you have to convert it
 
 
  -------------------------------- 
- <a name="variables"/>### Variables 
+ <a name="variables"/>
+### Variables 
 
 We use variable to store data that we want to access at a later point. 
 In python we can just use a new name that we have not used before and assign a value to it and it becomes a variable.
 
 ```python
 age = 12
-name = "Bob'
+name = "Bob"
 ```
 
-------------------------------------------------------------
-
-### if Statments <a name="if_statments"/>
-
-------------------------------------------------------------
-
-### for Loops <a name="for_loops"/>
-
-------------------------------------------------------------
-
-### Functions <a name="functions"/>
-
-------------------------------------------------------------
-
-
  -------------------------------- 
- <a name="if_statements"/>###if Statements
+ <a name="if_statements"/>
+###if Statements
 
 t.b.d.
 
  -------------------------------- 
- <a name="for_loops"/>### for Loops
+ <a name="for_loops"/>
+### for Loops
 
 t.b.d.
 
  -------------------------------- 
- <a name="functions"/>###Functions
+ <a name="functions"/>
+###Functions
 
 t.b.d.
 

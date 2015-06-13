@@ -5,20 +5,5 @@ In python we can just use a new name that we have not used before and assign a v
 
 ```python
 age = 12
-name = "Bob'
+name = "Bob"
 ```
-
-------------------------------------------------------------
-
-### if Statments <a name="if_statments"/>
-
-------------------------------------------------------------
-
-### for Loops <a name="for_loops"/>
-
-------------------------------------------------------------
-
-### Functions <a name="functions"/>
-
-------------------------------------------------------------
-
